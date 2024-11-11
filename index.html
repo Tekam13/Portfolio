@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Ma Presentation</title>
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Dimiti Tekam</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">    
+        <div class="logo">Dimiti Tekam</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- section -->
+    <div id="profile">
+        <div class="section_pic-container">
+            <img src="img/ys.png" class="zee">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Salut, je suis</p>
+            <h1 class="title">Dimitri Tekam</h1>
+            <p class="section_text_p2">Developpeur Frontend</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('img/cv.pdf')">Telecharger cv</button>
+                <button class="btn btn-color-1" onclick="location.href ='#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="img/link.png" class="icon" onclick="location.href='https://linkedin.com/'">
+                <img src="img/github.png" class="icon" onclick="location.href='https://github.com/'">
+            </div>
+        </div>
+        
+    </div>
+    <section id="about">
+        <p class="section_text_p1">Get To Know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="img/dra.png" alt="" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="img/er (1).png" alt="" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ ans d'experience <br> dans le Developpeur Frontend des application  </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="img/ur.png" alt="" class="icon">
+                        <h3>Education</h3>
+                        <p>DEC à L'institut universitaire de la côte<br>Lipro à L'institut universitaire de la côte</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Bonjour et bienvenue sur mon portfolio ! Je suis un développeur frontend passionné, spécialisé dans la création d'interfaces utilisateur attrayantes et fonctionnelles. Avec une expérience dans les technologies web modernes telles que HTML, CSS et JavaScript, ainsi que des frameworks comme React Native et Angular, je m'efforce de transformer des idées en expériences numériques mémorables.</p>
+                </div>
+            </div>
+            
+        </div>
+        <img src="img/flr.png" alt="" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developpeur Frontend</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experimenter</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experimenter</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>REACT NATIVE</h3>
+                                <p>Experimenter</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>BOOTSTRAP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>ANGULAR</h3>
+                                <p>Experimenter</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>TYPESCRIPT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>ASP.NET</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developpeur Bakend</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>STRAPI</h3>
+                                <p>Experimenter</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>MYSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/vt.png" alt="" class="icon">
+                            <div>
+                                <h3>GITHUB</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/flr.png" alt="" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img/tta.jpeg" alt="" class="projects-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img/mma.jpeg" alt="" class="projects-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img/app.jpeg" alt="" class="projects-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/flr.png" alt="" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="img/mail.png" alt="icon contact-icon email-icon">
+                <p><a href="mailto:dimitritekamkotieu@gmail.com">Exemple@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="img/link.png" alt="icon contact-icon">
+                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 2024 Dimiti Tekam. All Rights Reserved</p> 
+    </footer>
+    <script src="app.js"></script>   
+</body>
+</html>
